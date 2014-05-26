@@ -17,13 +17,14 @@ USER_CFLAGS =
 # for example libraries like:
 # USER_LD_FLAGS = libs/libawesomelib.a
 
-USER_LDFLAGS =
+USER_LDFLAGS = /lib64/libgstreamer-0.10.so /lib64/libgstapp-0.10.so.0 /lib64/libgstvideo-0.10.so.0 /lib64/libopencv_calib3d.so.2.4 /lib64/libX11.so.6 /lib64/libXi.so.6 /lib64/libXrandr.so.2 /lib64/libXxf86vm.so.1 /lib64/libudev.so.1 /lib64/libGLEW.so.1.9.0 /usr/lib64/libPocoNetSSL.so.11 /lib64/libPocoXML.so.11
 
 
 # use this to add system libraries for example:
 # USER_LIBS = -lpango
 
-USER_LIBS =-lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_flann -lopencv_legacy -lopencv_ml -lopencv_objdetect -lopencv_ts -lopencv_video
+
+USER_LIBS =-lpthread -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_flann -lopencv_legacy -lopencv_ml -lopencv_objdetect -lopencv_ts -lopencv_video -lgstbase-0.10
 
 
 # change this to add different compiler optimizations to your project
