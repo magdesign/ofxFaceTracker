@@ -1,18 +1,12 @@
-<source>
-	<useCamera>1</useCamera>
-</source>
 <camera>
 	<framerate>30</framerate>
 	<width>640</width>
 	<height>480</height>
 </camera>
 <face>
-	<!-- <scale>1</scale> -->
-	<iterations>25</iterations>
-	<clamp>4</clamp>
-	<tolerance>.01</tolerance>
-	<attempts>2</attempts>
-	<!-- <drawMesh>1</drawMesh> -->
+	<iterations>20</iterations>
+	<tolerance>.1</tolerance>
+	<attempts>1</attempts>
 </face>
 <osc>
 	<host>localhost</host>
